@@ -1,0 +1,50 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #1C1B1B;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+  }
+
+.Name{
+  text-decoration: none;
+  color: #fff;
+}
+
+.Name a {
+  float: left;
+
+}
+
+ul li{
+    display: inline;
+  }
+
+li:first-child a{
+    color: #EC9723;
+  }
+
+ul li a{
+    padding: 8px;
+    color: #fff;  
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+
+}
+
+a:hover {
+    color: #D5D5D5;
+  }

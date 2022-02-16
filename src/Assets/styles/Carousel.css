@@ -1,0 +1,38 @@
+.imgCarousel {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;  
+    filter: brightness(55%);
+    max-width: 100%;  
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+  }
+
+.centered .sous-titre{
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  button{
+    color:white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    border-color: white;
+    border-width: 3px;
+    padding: 10px;
+  }
