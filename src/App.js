@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Carousel from './Components/Carousel';
 import Services from './Components/Services';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <header className="App-header">
         <Header></Header>
         <Carousel></Carousel>
-        <Services></Services>       
+        <Services></Services>  
+        <Contact></Contact>      
       </header>
     </div>
   );

@@ -1,3 +1,79 @@
 .Services {
-    color: black;
+    color: #28375C;
+    margin-top: 50px;
 }
+
+.Titre{
+    font-size: 70px;
+}
+
+.Services .sous-titre{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30em;
+    font-size:20px;
+}
+
+.Head {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100px;  
+    max-width: 100px;  
+}
+
+.Commission{
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Tuto{
+    margin-bottom: 150px;
+}
+
+.Head:hover{
+    max-height: 150px;  
+    max-width: 150px;  
+    transition: 0.3s;
+}
+
+
+@media  screen and (max-width: 500px) {
+    .Services .Titre{
+        font-size: 30px;
+    }
+
+    .Commission{
+        display: inline;
+    }
+
+    .Head {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        max-height: 65px;  
+        max-width: 65px;  
+    }
+
+    .Services .sous-titre{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 25em;
+        font-size:10px;
+    }
+
+    
+  }
+
+  @media  screen and (max-width: 400px) {
+    .Services {
+        
+        margin-top: 1em;
+    }
+
+    .Tuto{
+       
+        margin-bottom: 3em;
+    }
+    
+  }

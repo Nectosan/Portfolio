@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Assets/styles/Carousel.css';
-import image from '../Assets//img/img1.jpg';
+import image from '../Assets/img/img1.jpg';
 
 function Carousel() {
   return (
